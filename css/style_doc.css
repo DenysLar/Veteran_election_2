@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* параметры обнуления */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* убирает линии обводки у некоторых браузеров */
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+/* границы блоков - новый расчеты */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* части страницы придает значение блоков */
+nav, footer, header, aside {
+  display: block;
+}
+
+/* уравнивает поведение шрифтов в разных браузерах */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* унаследование семейства шрифта основного документа (так как по умолчанию имеют свои параметры */
+input, button, textarea {
+  font-family: inherit;
+}
+
+/* убира/т некоторые особенности в разных браузерах*/
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* обнуляем все заголовки H */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* ----------- */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.img {
+  padding: 10px 0 0 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  left: 0;
+  border-radius: 12px;
+}
+
+.bottom {
+  padding: 40px 0;
+}
+
+.bottom-item {
+  margin: 0 auto;
+  line-height: 4;
+  background-color: coral;
+  border-radius: 10px;
+  width: 140px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}/*# sourceMappingURL=style_doc.css.map */

@@ -1,0 +1,35 @@
+@import '_null_style';
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.img-1 {
+}
+.gross-img {
+}
+.img {
+    padding: 10px 0 0 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    left: 0;
+    border-radius: 12px;
+}
+.bottom {
+    padding: 40px 0;
+
+}
+.bottom-item {
+    margin: 0 auto;
+    line-height: 4;
+    background-color: coral;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
